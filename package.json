@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "2.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "EduAdvisor Team",
+  "license": "ISC",
+  "description": "AI-powered career guidance system for J&K students",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "framer-motion": "^12.23.19",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.0",
+    "nodemailer": "^7.0.5",
+    "nodemon": "^3.1.10",
+    "recharts": "^3.2.1",
+    "uuid": "^9.0.1"
+  }
+}
